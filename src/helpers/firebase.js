@@ -80,6 +80,7 @@ export const createUser = async (email, password,navigate) => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
       .then((result) => {
+        console.log(result)
         toastSuccessNotify("log in succesfull");
         navigate("/");
       })
