@@ -16,11 +16,11 @@ const Profile = () => {
   // console.log(currentUser);
   return (
     
-    <Container className="login-container">
-      <Box className="login-box">
+    <Container className="log-main">
+      <Box className="log-box">
         <Avatar
-          className="login-avatar"
-          alt="avatar_img"
+          className="login-image"
+          alt=""
           src={blogPng}
           sx={{ width: 156, height: 156 }}
         />
