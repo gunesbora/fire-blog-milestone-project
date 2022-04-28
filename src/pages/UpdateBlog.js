@@ -39,7 +39,7 @@ const UpdateBlog = () => {
   const navigate = useNavigate()
   const item = location.state.item
 
-  const [info,setInfo]=useState({id:item.id,title:item.title,content:item.content,privateId:item.privateId,email:currentUser.email,date:""});
+  const [info,setInfo]=useState({id:item.id,title:item.title,image:item.image,content:item.content,privateId:item.privateId,email:currentUser.email,date:""});
 
   const handleChange = (e) => {
     e.preventDefault();
